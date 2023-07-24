@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>About Me</title>
+    <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1, h2, h3, h4, h5, h6 {font-family:"lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #4f4e4e;
+    line-height: 1.8;
+}
+body {font-family: Arial, Helvetica, sans-serif;
+}  
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url(image/aboutmebackg.jpg);
+  min-height: 100%;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+} 
+
+</style>   
+ </head>
+    <body>
+     
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-white">
+    <div class="w3-bar" id="myNavbar">
+      </a>
+      <a href="index.html"class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+      <a href="aboutme.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ABOUT</a>
+      <a href="education.html" class="w3-bar-item w3-button"><i class="fa fa-graduation-cap" style="font-size: 13px;"></i> EDUCATION</a>
+      <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      <a href="myresume.html" class="w3-bar-item w3-button"><i class="fa fa-file" style="font-size: 13px;"></i> MY RESUME </a>
+      <a href="#" class="w3-bar-item w3-button w3-right w3-hover-red"></a>
+    </div>
+</div>
+    
+<!--Navbar on small screens-->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="aboutme.html" class="w3-bar-item w3-button" onclick="toggleFunction()"> ABOUT ME </a>
+            <a href="education.html" class="w3-bar-item w3-button" onclick="toggleFunction()"> EDUCATION </a>
+            <a href="contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()"> CONTACT </a>
+            <a href="myresume.html" class="w3-bar-item w3-button" onclick="tonggleFunction()"> MY RESUME </a>
+            <a href="#" class="w3-bar-item w3-button"> SEARCH </a>
+         </div>
+        
+    
+
+<!-- First Parallax Image with Logo Text -->
+        <div class="bgimg-1 w3-display-container w3-opacity-min" id="about">
+          <div class="w3-display-middle" style="white-space:nowrap;">
+          <span class="w3-center w3-padding-large w3-white w3-xlarge w3-wide w3-animate-opacity">ABOUT ME </span>
+        </div>
+    </div>
+    
+
+<!--Container (About Section)-->
+<div class="w3-content w3-container w3-padding-64 id=about">
+    <h3 class="w3-center"> MY BIODATA </h3>
+    <p class="w3-center"><em>Love Yourself!</em></p>
+    <br>
+
+<!-- Page content -->
+    <div class="w3-content w3-padding-large w3-margin-top" id="About">
+
+<!-- Images (About) -->
+    <img src="image/AboutMe.jpg" alt="Me" class="w3-image w3-round w3-opacity w3-hover-opacity-off" width="1000" height="500">
+    </div>
+<br>
+
+<br>
+
+
+    <p class="justify" font-style="Helvetica"> Hello, welcome to my profile.
+
+    I'm Nur Alin Nabilah Binti Ahmad Nazim, you can call me Alin or anything that you comfartable. 
+    I was born and currently live in Kuala Lumpur. I'm a student in my final year at UiTM Rembau, 
+    and university life has taught me to manage my life independently without my family.
+
+    When it comes to hobbies, my favourite is among the things I really enjoy and want to get involved 
+    which is <b><font color="red">challenging activities</font></b> because they allow me to challenge my capabilities both physically 
+    and emotionally while also learning more about things like <b>hiking</b>,<b>climbing mountains</b>, or <b>snorkelling</b></p>.
+
+</div>
+
+    <!-- Page content -->
+    <div class="w3-content w3-center w3-margin-top" id="hockey">
+    
+        <!-- Images (Hockey) -->
+        <img src="image/hockeypic.jpg" alt="Me and My Hockey Friends" class="w3-image w3-round w3-border w3-imgcenter w3-scaled" width="600" height="100">
+        </div>
+        
+        <!--Text under image-->
+        <div class="w3-center" id="text">
+          Picture of me with my hockey buddies.
+        </div>
+    
+    <!-- Page content -->
+    <div class="w3-content w3-padding-large" id="About">
+        <p class="justify" font-style="Helvetica">
+            <br>
+          I've enjoyed playing hockey since elementary school. I begin this in year 5, my second last year of 
+          primary school, and keep going until I graduate in form 5. I stopped playing hockey after finishing 
+          high school because I didn't have any friends. </p>
+    </div>
+
+    <br>
+    <br>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="aboutme.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+
+  </body>
+</html>
